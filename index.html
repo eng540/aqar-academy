@@ -88,6 +88,7 @@ main{flex:1;min-width:0;padding:22px 18px 60px;max-width:1020px;margin:0 auto;wi
 <nav id="sidebar">
   <input class="search" id="search" type="search" placeholder="🔍 بحث في الفهرس…">
   <div class="g">🚀 استكشف المشروع</div>
+  <div class="item"><a href="#/الحوكمة/دليل-الهوية-والتموضع.md" data-path="الحوكمة/دليل-الهوية-والتموضع.md">تعريف المشروع وهويته</a></div>
   <div class="item"><input type="checkbox" data-path="06-دليل-الدراسة-الكاملة.md"><a href="#/06-دليل-الدراسة-الكاملة.md" data-path="06-دليل-الدراسة-الكاملة.md">دليل الدراسة الكاملة</a></div>
   <div class="item"><a href="#/عن-المعد.md" data-path="عن-المعد.md">👤 عن صاحب المشروع</a></div>
   <div class="item"><a href="#/نواتج-التعلم-والهيكل-المطور.md" data-path="نواتج-التعلم-والهيكل-المطور.md">🎯 نواتج التعلم للمراحل</a></div>
@@ -190,7 +191,7 @@ async function render(){
     content.innerHTML=(window.marked?marked.parse(md,{gfm:true,breaks:true}):'<pre>'+md.replace(/</g,'<')+'</pre>');
     content.querySelectorAll('table').forEach(t=>{const d=document.createElement('div');d.className='tw';t.parentNode.replaceChild(d,t);d.appendChild(t);});
     const h1=content.querySelector('h1,h2');
-    document.title=(h1?h1.textContent+' — ':'')+'الأكاديمية العقارية السعودية';
+    document.title=(h1?h1.textContent+' — ':'')+'العقار السعودي | معرفة وتطبيق';
     window.scrollTo({top:0});
   }catch(e){
     content.innerHTML='<div class="err">تعذر عرض هذا الدرس حالياً. يمكنك العودة إلى <a href="#/06-دليل-الدراسة-الكاملة.md">دليل الدراسة</a> أو اختيار درس آخر من القائمة. إذا استمرت المشكلة، <a href="https://wa.me/966532777678" target="_blank" rel="noopener">تواصل معنا للمساعدة</a>.</div>';
