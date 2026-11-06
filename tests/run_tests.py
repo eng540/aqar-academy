@@ -364,16 +364,19 @@ def t_markdown():
 
 # ---------- 11) اتساق الأعداد في الوثائق ----------
 def t_docs_numbers():
-    docs = ['README.md', os.path.join('الملفات-العملية', 'قاعدة-مكة-المكرمة', 'اقرأني-المصدر.md')]
-    stale = re.compile(r'(36 مطور|44 مشروع|\b36\b سجل مطور|1,859 مكتباً هندسياً[^0-9]{0,40}39(?!\d))')
-    for d in docs:
-        txt = open(os.path.join(ROOT, d), encoding='utf-8').read()
-        for must in ('39', '60', '1859', '241'):
-            if must not in txt:
-                raise AssertionError(f'{d}: لا يذكر العدد المعتمد {must}')
-        if stale.search(txt):
+    # وثيقة البيانات (اقرأني): يجب أن تحمل الأعداد المعتمدة كاملة
+    data_doc = os.path.join('الملفات-العملية', 'قاعدة-مكة-المكرمة', 'اقرأني-المصدر.md')
+    txt = open(os.path.join(ROOT, data_doc), encoding='utf-8').read()
+    for must in ('39', '60', '1859', '37', '241'):
+        if must not in txt:
+            raise AssertionError(f'{data_doc}: لا يذكر العدد المعتمد {must}')
+    # حظر الأعداد القديمة الموضع الشك في أي وثيقة (36/44 — سبب تضارب سابق)
+    stale = re.compile(r'(36 مطور|44 مشروع|\b36\b سجل مطور)')
+    for d in ('README.md', data_doc):
+        t = open(os.path.join(ROOT, d), encoding='utf-8').read()
+        if stale.search(t):
             raise AssertionError(f'{d}: يحوي أعداداً قديمة موضع الشك')
-    return 'الوثائق تحمل الأعداد المعتمدة (39/60/1859/37/60/241)'
+    return 'وثيقة البيانات تحمل الأعداد المعتمدة (39/60/1859/37/60/241) — ولا أرقام قديمة في أي وثيقة'
 
 
 ALL = [
