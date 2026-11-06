@@ -160,7 +160,7 @@ function updateProgress(){
   const ns=document.getElementById('nextStep');
   const nextBox=boxes.find(b=>!b.checked);
   if(nextBox){const a=nextBox.parentElement.querySelector('a');ns.innerHTML='▶ <b>الخطوة القادمة:</b> <a href="#/'+encodeURIComponent(nextBox.dataset.path)+'">'+a.textContent+'</a>';}
-  else{ns.innerHTML='🎉 أكملت جميع محاور الدورة! انتقل إلى <a href="#/07-بنك-الاختبارات-بعد-الدورة.md">بنك الاختبارات</a> ثم <a href="#/04-المشاريع-التطبيقية.md">المشاريع والمحاكاة</a>.';}
+  else{ns.innerHTML='🎉 اكتملت عناصر الدراسة المحددة في سجل التقدم. بعد إتمام المراحل التسع، انتقل إلى <a href="#/07-بنك-الاختبارات-بعد-الدورة.md">بنك الاختبارات النهائي</a>، واجمع مخرجات <a href="#/04-المشاريع-التطبيقية.md">المشاريع والمحاكاة</a> التي أنجزتها أثناء الدراسة.';}
 }
 updateProgress();
 document.getElementById('resetBtn').addEventListener('click',()=>{if(confirm('هل تريد إعادة تعيين تقدمك؟')){store={};localStorage.removeItem('aqarProgress');boxes.forEach(b=>b.checked=false);updateProgress();}});
