@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>الأكاديمية العقارية السعودية — الدورة الكاملة</title>
-<meta name="description" content="دورة تدريبية متكاملة لدخول سوق العقارات السعودي: من الصفر إلى بناء النشاط التجاري. 9 مراحل، 56 محوراً، بنك اختبارات ومشاريع تطبيقية.">
+<title>الأكاديمية العقارية السعودية — منظومة التعليم والتأهيل</title>
+<meta name="description" content="منظومة متكاملة لفهم صناعة العقار السعودي وممارسة أعمالها: 9 مراحل، 56 محوراً، 12 مشروعاً تطبيقياً، حالات ومحاكاة، مسارات مهنية، نموذج مالي، ونظام حوكمة ومصادر.">
 <meta name="author" content="عبدالمجيد الفقيه — مهندس مدني">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -34,6 +34,8 @@ nav#sidebar{width:305px;flex-shrink:0;background:var(--card);border-inline-end:1
 .item input{accent-color:var(--gold);width:16px;height:16px;flex-shrink:0;cursor:pointer}
 .item a{flex:1;text-decoration:none;color:var(--txt);font-size:.92em;line-height:1.5}
 .item a.active{color:var(--navy);font-weight:800}
+.nextstep{margin:18px 4px 0;padding:10px 12px;background:#fffbea;border:1px solid #f0e3ac;border-radius:10px;font-size:.84em;line-height:1.7}
+.nextstep a{color:var(--navy);font-weight:800;text-decoration:none}
 .reset{margin:16px 4px 0;width:calc(100% - 8px);background:#fff;border:1px solid var(--line);color:var(--muted);border-radius:10px;padding:7px;font-family:inherit;font-size:.82em;cursor:pointer}
 .reset:hover{color:#b91c1c;border-color:#fecaca}
 .dl{display:flex;gap:9px;align-items:center;padding:6px 10px;border-radius:9px;text-decoration:none;color:var(--txt);font-size:.9em}
@@ -89,6 +91,8 @@ main{flex:1;min-width:0;padding:22px 18px 60px;max-width:1020px;margin:0 auto;wi
   <div class="g">🚀 البداية</div>
   <div class="item"><input type="checkbox" data-path="06-دليل-الدراسة-الكاملة.md"><a href="#/06-دليل-الدراسة-الكاملة.md" data-path="06-دليل-الدراسة-الكاملة.md">دليل الدراسة الكاملة</a></div>
   <div class="item"><a href="#/عن-المعد.md" data-path="عن-المعد.md">👤 عن مُعِدّ الدورة</a></div>
+  <div class="item"><a href="#/نواتج-التعلم-والهيكل-المطور.md" data-path="نواتج-التعلم-والهيكل-المطور.md">🎯 نواتج التعلم للمراحل</a></div>
+  <div class="item"><input type="checkbox" data-path="01-خريطة-البرنامج.md"><a href="#/01-خريطة-البرنامج.md" data-path="01-خريطة-البرنامج.md">خريطة البرنامج</a></div>
 
   <div class="g">📚 الدورة الكاملة — 9 مراحل</div>
   <div class="item"><input type="checkbox" data-path="الدورة-الكاملة/المرحلة-01-فهم-الصناعة.md"><a href="#/الدورة-الكاملة/المرحلة-01-فهم-الصناعة.md" data-path="الدورة-الكاملة/المرحلة-01-فهم-الصناعة.md">المرحلة 1 — فهم الصناعة</a></div>
@@ -101,21 +105,39 @@ main{flex:1;min-width:0;padding:22px 18px 60px;max-width:1020px;margin:0 auto;wi
   <div class="item"><input type="checkbox" data-path="الدورة-الكاملة/المرحلة-08-الأدوات-والذكاء-الاصطناعي.md"><a href="#/الدورة-الكاملة/المرحلة-08-الأدوات-والذكاء-الاصطناعي.md" data-path="الدورة-الكاملة/المرحلة-08-الأدوات-والذكاء-الاصطناعي.md">المرحلة 8 — الأدوات والذكاء الاصطناعي</a></div>
   <div class="item"><input type="checkbox" data-path="الدورة-الكاملة/المرحلة-09-بناء-النشاط-التجاري.md"><a href="#/الدورة-الكاملة/المرحلة-09-بناء-النشاط-التجاري.md" data-path="الدورة-الكاملة/المرحلة-09-بناء-النشاط-التجاري.md">المرحلة 9 — بناء النشاط التجاري</a></div>
 
+  <div class="g">🎯 التطبيق والممارسة</div>
+  <div class="item"><input type="checkbox" data-path="04-المشاريع-التطبيقية.md"><a href="#/04-المشاريع-التطبيقية.md" data-path="04-المشاريع-التطبيقية.md">المشاريع التطبيقية (12)</a></div>
+  <div class="item"><a href="#/الحالات-التدريبية/فهرس-الحالات.md" data-path="الحالات-التدريبية/فهرس-الحالات.md">الحالات التدريبية (8)</a></div>
+  <div class="item"><a href="#/الحالات-التدريبية/محاكاة-التطوير-أرض-1500م.md" data-path="الحالات-التدريبية/محاكاة-التطوير-أرض-1500م.md">⭐ المحاكاة الرئيسية — أرض 1500م</a></div>
+  <div class="item"><a href="#/المسارات-المهنية/دليل-المسارات-المهنية.md" data-path="المسارات-المهنية/دليل-المسارات-المهنية.md">المسارات المهنية (10)</a></div>
+  <div class="item"><a href="#/التقييم/منظومة-التقييم-والمعايير.md" data-path="التقييم/منظومة-التقييم-والمعايير.md">منظومة التقييم والمعايير</a></div>
+
   <div class="g">🧰 مراجع وأدوات</div>
   <div class="item"><input type="checkbox" data-path="المرحلة-01/الدرس-01-ما-هو-القطاع-العقاري.md"><a href="#/المرحلة-01/الدرس-01-ما-هو-القطاع-العقاري.md" data-path="المرحلة-01/الدرس-01-ما-هو-القطاع-العقاري.md">الدرس الموسّع الأول</a></div>
-  <div class="item"><input type="checkbox" data-path="01-خريطة-البرنامج.md"><a href="#/01-خريطة-البرنامج.md" data-path="01-خريطة-البرنامج.md">خريطة البرنامج</a></div>
   <div class="item"><input type="checkbox" data-path="02-مصفوفة-المهارات.md"><a href="#/02-مصفوفة-المهارات.md" data-path="02-مصفوفة-المهارات.md">مصفوفة المهارات</a></div>
   <div class="item"><input type="checkbox" data-path="03-الجدول-الزمني.md"><a href="#/03-الجدول-الزمني.md" data-path="03-الجدول-الزمني.md">الجدول الزمني</a></div>
-  <div class="item"><input type="checkbox" data-path="04-المشاريع-التطبيقية.md"><a href="#/04-المشاريع-التطبيقية.md" data-path="04-المشاريع-التطبيقية.md">المشاريع التطبيقية (12)</a></div>
   <div class="item"><input type="checkbox" data-path="سجل-التقدم.md"><a href="#/سجل-التقدم.md" data-path="سجل-التقدم.md">سجل التقدم</a></div>
   <div class="item"><input type="checkbox" data-path="05-الاختبار-التشخيصي.md"><a href="#/05-الاختبار-التشخيصي.md" data-path="05-الاختبار-التشخيصي.md">الاختبار التشخيصي</a></div>
   <div class="item"><input type="checkbox" data-path="07-بنك-الاختبارات-بعد-الدورة.md"><a href="#/07-بنك-الاختبارات-بعد-الدورة.md" data-path="07-بنك-الاختبارات-بعد-الدورة.md">⚠️ بنك الاختبارات (بعد الدراسة)</a></div>
+  <div class="item"><a href="#/نماذج/دليل-النموذج-المالي.md" data-path="نماذج/دليل-النموذج-المالي.md">📊 دليل النموذج المالي</a></div>
+
+  <div class="g">🛡️ الحوكمة والجودة</div>
+  <div class="item"><a href="#/الحوكمة/سجل-المصادر.md" data-path="الحوكمة/سجل-المصادر.md">سجل المصادر الرسمية</a></div>
+  <div class="item"><a href="#/الحوكمة/سجل-المراجعة-والتغييرات.md" data-path="الحوكمة/سجل-المراجعة-والتغييرات.md">سجل المراجعة والتغييرات</a></div>
+  <div class="item"><a href="#/الحوكمة/قائمة-التحقق-والمعلقات.md" data-path="الحوكمة/قائمة-التحقق-والمعلقات.md">قائمة التحقق والمعلقات</a></div>
+  <div class="item"><a href="#/الحوكمة/تقارير-التطوير/تقرير-التشخيص-الشامل.md" data-path="الحوكمة/تقارير-التطوير/تقرير-التشخيص-الشامل.md">تقرير التشخيص الشامل</a></div>
+  <div class="item"><a href="#/الحوكمة/تقارير-التطوير/مصفوفة-التعديلات.md" data-path="الحوكمة/تقارير-التطوير/مصفوفة-التعديلات.md">مصفوفة التعديلات</a></div>
+  <div class="item"><a href="#/الحوكمة/تقارير-التطوير/تقرير-الإنجاز.md" data-path="الحوكمة/تقارير-التطوير/تقرير-الإنجاز.md">تقرير الإنجاز</a></div>
 
   <div class="g">📦 تنزيلات</div>
   <a class="dl" href="%D8%A7%D9%84%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84%D8%A9.zip" download>⬇️ الدورة كاملة (ZIP)</a>
+  <a class="dl" href="نماذج/نموذج-دراسة-الجدوى-العقارية.xlsx" download>⬇️ النموذج المالي (Excel)</a>
+  <a class="dl" href="الملفات-العملية/قاعدة-مكة-المكرمة/makkah_database.xlsx" download>⬇️ قاعدة مكة المكرمة (Excel)</a>
+  <a class="dl" href="#/الملفات-العملية/قاعدة-مكة-المكرمة/اقرأني-المصدر.md" data-path="الملفات-العملية/قاعدة-مكة-المكرمة/اقرأني-المصدر.md">📄 عن مصدر قاعدة مكة</a>
   <a class="dl" href="%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9/%D8%B3%D8%AC%D9%84-%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1%D8%A7%D8%AA.csv" download>⬇️ سجل العقارات (CSV)</a>
   <a class="dl" href="%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9/%D8%B3%D8%AC%D9%84-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1.csv" download>⬇️ سجل العملاء (CSV)</a>
 
+  <div id="nextStep" class="nextstep"></div>
   <button class="reset" id="resetBtn">🗑️ إعادة تعيين التقدم</button>
 </nav>
 
@@ -131,12 +153,20 @@ const DEFAULT='06-دليل-الدراسة-الكاملة.md';
 const content=document.getElementById('content');
 let currentPath=DEFAULT;
 
-/* ===== التقدم ===== */
+/* ===== التقدم + الخطوة القادمة ===== */
 let store={};
 try{store=JSON.parse(localStorage.getItem('aqarProgress')||'{}')}catch(e){store={}}
 const boxes=[...document.querySelectorAll('.item input[type=checkbox]')];
 boxes.forEach(b=>{b.checked=!!store[b.dataset.path];b.addEventListener('change',()=>{if(b.checked)store[b.dataset.path]=true;else delete store[b.dataset.path];localStorage.setItem('aqarProgress',JSON.stringify(store));updateProgress();})});
-function updateProgress(){const total=boxes.length;const done=boxes.filter(b=>b.checked).length;document.getElementById('pfill').style.width=(total?Math.round(done*100/total):0)+'%';document.getElementById('pcount').textContent=done+' / '+total;}
+function updateProgress(){
+  const total=boxes.length;const done=boxes.filter(b=>b.checked).length;
+  document.getElementById('pfill').style.width=(total?Math.round(done*100/total):0)+'%';
+  document.getElementById('pcount').textContent=done+' / '+total;
+  const ns=document.getElementById('nextStep');
+  const nextBox=boxes.find(b=>!b.checked);
+  if(nextBox){const a=nextBox.parentElement.querySelector('a');ns.innerHTML='▶ <b>الخطوة القادمة:</b> <a href="#/'+encodeURIComponent(nextBox.dataset.path)+'">'+a.textContent+'</a>';}
+  else{ns.innerHTML='🎉 أكملت جميع محاور الدورة! انتقل إلى <a href="#/07-بنك-الاختبارات-بعد-الدورة.md">بنك الاختبارات</a> ثم <a href="#/04-المشاريع-التطبيقية.md">المشاريع والمحاكاة</a>.';}
+}
 updateProgress();
 document.getElementById('resetBtn').addEventListener('click',()=>{if(confirm('هل تريد إعادة تعيين تقدمك؟')){store={};localStorage.removeItem('aqarProgress');boxes.forEach(b=>b.checked=false);updateProgress();}});
 
@@ -176,7 +206,7 @@ async function render(){
 document.addEventListener('click',e=>{
   const a=e.target.closest('a');if(!a)return;
   const href=a.getAttribute('href');
-  if(!href||href.startsWith('#')||href.startsWith('http'))return;
+  if(!href||href.startsWith('#')||href.startsWith('http')||href.startsWith('tel:'))return;
   if(href.endsWith('.md')){e.preventDefault();go(resolve(currentPath,href));}
 });
 

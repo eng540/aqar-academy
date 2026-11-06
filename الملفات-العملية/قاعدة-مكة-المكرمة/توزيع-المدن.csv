@@ -1,0 +1,41 @@
+الملف,المدينة,عدد السجلات
+broker_offices.csv,جدة,22
+broker_offices.csv,مكة المكرمة,11
+broker_offices.csv,الطائف,4
+contractors.csv,جدة,53
+contractors.csv,مكة المكرمة,4
+contractors.csv,الطائف,1
+contractors.csv,بيروت,1
+contractors.csv,غير محدد,1
+developers.csv,جدة,13
+developers.csv,مكة المكرمة,12
+developers.csv,غير محدد,8
+developers.csv,الطائف,4
+developers.csv,الرياض,2
+engineering_offices.csv,جدة,1204
+engineering_offices.csv,مكة المكرمة,381
+engineering_offices.csv,الطائف,187
+engineering_offices.csv,القنفذة,14
+engineering_offices.csv,خليص,9
+engineering_offices.csv,رابغ,9
+engineering_offices.csv,رنية,9
+engineering_offices.csv,تربة,8
+engineering_offices.csv,القوز,6
+engineering_offices.csv,الجموم,5
+engineering_offices.csv,الخرمة,4
+engineering_offices.csv,بحرة,4
+engineering_offices.csv,الليث,4
+engineering_offices.csv,أضم,3
+engineering_offices.csv,المويه,2
+engineering_offices.csv,العرضية الشمالية,2
+engineering_offices.csv,مركز حلي,2
+engineering_offices.csv,قياء,2
+engineering_offices.csv,ميسان,1
+engineering_offices.csv,الكامل,1
+engineering_offices.csv,المظيلف,1
+engineering_offices.csv,الاقتصادية (رابغ),1
+projects.csv,مكة المكرمة,40
+projects.csv,جدة,12
+projects.csv,الطائف,6
+projects.csv,رابغ,1
+projects.csv,غير محدد,1
