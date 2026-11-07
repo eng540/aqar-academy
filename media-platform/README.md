@@ -25,6 +25,9 @@
 7. [خطة التشغيل لأول 90 يوماً](./07-roadmap-90-days.md)
 8. [الحوكمة والتحقق والامتثال](./08-governance-compliance.md)
 9. [سجل البحث والقرارات المفتوحة](./09-research-backlog.md)
+10. [تدقيق القناة السابقة](./10-legacy-channel-audit.md)
+11. [بطاقة تحليل المنافسين](./11-competitor-scorecard.md)
+12. [نماذج المحتوى التجريبية](./12-content-pilot-briefs.md)
 
 ## ما لا تدّعيه هذه النسخة
 
