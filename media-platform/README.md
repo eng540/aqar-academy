@@ -33,6 +33,7 @@
 15. [تقويم المحتوى التجريبي](./15-editorial-pilot-calendar.md)
 16. [سجل المصادر والأدلة](./16-source-register.md)
 17. [خريطة الفرص التحريرية والتجارية](./17-editorial-opportunity-map.md)
+18. [معمار المنصة وتجربة الجمهور](./18-platform-architecture.md)
 
 ## ما لا تدّعيه هذه النسخة
 
