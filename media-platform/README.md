@@ -32,6 +32,7 @@
 14. [حقيبة مقابلات الجمهور](./14-audience-research-toolkit.md)
 15. [تقويم المحتوى التجريبي](./15-editorial-pilot-calendar.md)
 16. [سجل المصادر والأدلة](./16-source-register.md)
+17. [خريطة الفرص التحريرية والتجارية](./17-editorial-opportunity-map.md)
 
 ## ما لا تدّعيه هذه النسخة
 
