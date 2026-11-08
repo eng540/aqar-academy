@@ -28,6 +28,10 @@
 10. [تدقيق القناة السابقة](./10-legacy-channel-audit.md)
 11. [بطاقة تحليل المنافسين](./11-competitor-scorecard.md)
 12. [نماذج المحتوى التجريبية](./12-content-pilot-briefs.md)
+13. [الدراسة التنافسية المتعمقة](./13-competitive-intelligence-deep-dive.md)
+14. [حقيبة مقابلات الجمهور](./14-audience-research-toolkit.md)
+15. [تقويم المحتوى التجريبي](./15-editorial-pilot-calendar.md)
+16. [سجل المصادر والأدلة](./16-source-register.md)
 
 ## ما لا تدّعيه هذه النسخة
 
