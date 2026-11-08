@@ -34,6 +34,9 @@
 16. [سجل المصادر والأدلة](./16-source-register.md)
 17. [خريطة الفرص التحريرية والتجارية](./17-editorial-opportunity-map.md)
 18. [معمار المنصة وتجربة الجمهور](./18-platform-architecture.md)
+19. [حزمة الإنتاج التجريبي الأولى](./19-first-pilot-content-pack.md)
+20. [نموذج مقارنة عروض المقاولين — CSV](./20-contractor-offer-comparison-template.csv)
+21. [دليل استخدام نموذج مقارنة العروض](./21-contractor-offer-template-guide.md)
 
 ## ما لا تدّعيه هذه النسخة
 
