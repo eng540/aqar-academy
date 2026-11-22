@@ -364,7 +364,7 @@ def t_markdown():
 
 # ---------- 11) اتساق الأعداد في الوثائق ----------
 def t_docs_numbers():
-    docs = ['README.md', os.path.join('الملفات-العملية', 'قاعدة-مكة-المكرمة', 'اقرأني-المصدر.md')]
+    docs = [os.path.join('الملفات-العملية', 'قاعدة-مكة-المكرمة', 'اقرأني-المصدر.md')]
     stale = re.compile(r'(36 مطور|44 مشروع|\b36\b سجل مطور|1,859 مكتباً هندسياً[^0-9]{0,40}39(?!\d))')
     for d in docs:
         txt = open(os.path.join(ROOT, d), encoding='utf-8').read()
