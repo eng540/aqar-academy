@@ -140,7 +140,7 @@
 2. NRMCA — يوضح أن إضافة الماء في الموقع قد تكون مسموحة إذا لم تتجاوز حدود الهبوط ونسبة الماء/المواد الإسمنتية، مع قياس وتوثيق الإضافة: https://www.nrmca.org/association-resources/research-and-engineering/frequently-asked-questions-on-concrete-materials/
 3. Concrete Society — أثر زيادة الماء على الأداء والمقاومة والمتانة والنزف والانفصال: https://www.concrete.org.uk/fingertips/excess-or-added-water-to-concrete/
 4. SASO — توجيه توعوي للمستهلكين بشأن الخرسانة الجاهزة والالتزام بإضافة الماء وفق المعايير السعودية ذات الصلة: https://www.saso.gov.sa/en/mediacenter/news/Pages/saso_news_1130.aspx
-5. Saudi Building Code — SBC 302، كود الإنشاءات الخرسانية ومتطلبات تنفيذ الخرسانة والتفتيش: https://sbc.gov.sa/en/BC/Pages/BuildingCode/BCDetails.aspx?codeId=302&year=2024
+5. Saudi Building Code — SBC 302، الكود السعودي للتشييد ومتطلبات تنفيذ الخرسانة والتفتيش: https://sbc.gov.sa/en/BC/Pages/BuildingCode/BCDetails.aspx?codeId=302&year=2024
 
 **حدود الاستدلال:** لا يثبت أي مصدر من هذه المصادر أن كل إضافة ماء ممنوعة، ولا يحدد كمية مسموحة لجميع الخلطات. المرجع التنفيذي هو مواصفة المشروع وتصميم الخلطة والإصدار المعتمد من المواصفات ذات الصلة.
 
